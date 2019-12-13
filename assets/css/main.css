@@ -1405,7 +1405,7 @@ body.is-preload #bg:before {
 	left: calc(50% - 1px);
 	width: 1px;
 	height: calc(3.5rem + 1px);
-	background: #ffffff;
+	/* background: #ffffff; */
 }
 
 #header > :first-child {
@@ -1420,7 +1420,7 @@ body.is-preload #bg:before {
 	width: 5.5rem;
 	height: 5.5rem;
 	line-height: 5.5rem;
-	border: solid 1px #ffffff;
+	/* border: solid 1px #ffffff; */
 	border-radius: 100%;
 }
 
