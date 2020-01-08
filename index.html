@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Ashton Schneider</title>
@@ -11,14 +7,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
+
 				<!-- Header -->
 					<header id="header">
+						<script>
+							let visitors = 0
+							visitors ++
+							console.log(visitors)
+							</script>
 						<div class="logo">
 							<!-- <span class="icon fa-gem"></span> -->
 						</div>
@@ -26,17 +29,15 @@
 							<div class="inner">
 								<h1>Ashton Schneider</h1>
 								<p>Software Developer
-									<!-- <a href="https://html5up.net">HTML5 UP</a> and released<br /> -->
-								<!-- for free under the <a href="https://html5up.net/license">Creative Commons</a> license. -->
 								</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#about">About</a></li>
-								<!-- <li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li> -->
+								 <li><a href="#projects">Projects</a></li> 
+								 <!-- <li><a href="#about">About</a></li> -->
+								<li><a href="#resume">Resume</a></li> 
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 							
@@ -73,13 +74,14 @@
 													<li>JavaScript</li>
 													<li>React</li>
 													<li>Redux</li>
-													<li>TypeScript</li>
 													<li>Ionic React</li>
+													<li>Gatsby.js</li>
 											
 												</ul>
 											</div>
 											<div>
 												<ul>
+													<li>TypeScript</li>
 													<li>Express</li>
 													<li>Node.js</li>
 													<li>PostgreSQL</li>
@@ -96,11 +98,17 @@
 					
 
 						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								<span class="image main"><img src="images/NewYork.jpeg" alt="" /></span>
+							 <a href= "https://capstone-96611.firebaseapp.com">	<h3 class= 'link'>Bean, Where Have You Bean?</h3></a>
+								<p>Our social media hybrid app is a hub of crowd-sourced tours, or string beans, that users can follow. If you want to create your own string bean, you can find nearby places, which we call beans, and link them into a string bean to share with the entire Bean community.</p>
+
+								<hr/>
+								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<h3>Bean, Where Have You Bean?</h3>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p> -->
 							</article>
 
 						<!-- About -->
@@ -111,7 +119,7 @@
 							</article> -->
 
 						<!-- Contact -->
-							<article id="contact">
+							<!-- <article id="contact">
 								<h2 class="major">Contact</h2>
 								<form method="post" action="#">
 									<div class="fields">
@@ -139,6 +147,18 @@
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="https://github.com/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
+							</article> -->
+							<article id="resume">
+								<div class='resumeHeader'>
+									<h2 class="major">RESUME</h2><ul class="actions">
+									<a  href="/images/Ashton_Schneider01_20.pdf"
+											download="Ashton_Schneider01_20.pdf"
+											class="button resumeDownload">
+											DOWNLOAD
+									</a>
+								</div>
+								<iframe src="/images/Ashton_Schneider01_20.pdf" width="100%" height="500px">
+								</iframe>
 							</article>
 
 						<!-- Elements -->
